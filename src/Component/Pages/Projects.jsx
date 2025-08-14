@@ -40,8 +40,8 @@ const Projects = ({ colors }) => {
             link: 'https://harish-e-commerce.netlify.app/'
         },
         {
-            index: bskBg,
-            image: '/src/assets/Projects_Img/bsk.png',
+            index: 4,
+            image: bskBg,
             name: 'BSK-Travels',
             technology: 'HTML, CSS, Javascript, React, Bootstrap',
             discription: 'A responsive online platform where users explore tour packages, book seats, browse trip photos, and contact the team—designed for seamless, hassle-free travel planning.',
