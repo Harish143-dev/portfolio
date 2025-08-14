@@ -5,7 +5,7 @@ import { faDesktop } from '@fortawesome/free-solid-svg-icons'
 import { faBootstrap, faCss3Alt, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
 import tailwind from '../../assets/tailwind.png'
 import Heading from '../Heading'
-import skillBg from '../../assets/skill_bg.png'
+import skillBg from '../../assets/skill_bg.jpg'
 
 const Skills = ({ colors }) => {
 
