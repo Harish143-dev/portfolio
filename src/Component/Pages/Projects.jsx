@@ -4,15 +4,18 @@ import Heading from '../Heading'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import netflix from "../../assets/Projects_Img/netflix.png";
 import projectBg from "../../assets/project_bg.jpg";
+import netflixBg from '../../assets/Projects_Img/netflix.png'
+import ecommerceBg from '../../assets/Projects_Img/e-commerce.png'
+import bskBg from '../../assets/Projects_Img/bsk.png'
+import todoBg from '../../assets/Projects_Img/todoapp.png'
 
 const Projects = ({ colors }) => {
 
     const imgSlide = [
         {
             index: 1,
-            image: '/src/assets/Projects_Img/netflix.png',
+            image: netflixBg,
             name: 'Netflix',
             technology: 'HTML, CSS, Javascript, React, Tailwind, Firebase',
             discription: 'I developed a Netflix-like streaming website with a clean and engaging user interface It features movie categories, banner sections, and detailed content display. I used dynamic data fetching and passed props to render different movie rows This project helped me understand how real-world streaming platforms organize content.',
@@ -21,22 +24,22 @@ const Projects = ({ colors }) => {
 
         {
             index: 2,
-            image: '/src/assets/Projects_Img/portfolio.png',
+            image: portfolioBg,
             name: 'Portfolio',
             technology: 'HTML, CSS, Javascript, React, Tailwind',
             discription: 'This portfolio showcases my work as a frontend developer, focusing on clean, responsive, and user-friendly web interfaces. It reflects my ability to turn designs into interactive digital experiences. The site serves as a central place to present my skills, creativity, and completed projects.',
-            link: 'https://harish-portfolio.netlify.app/'
+            link: 'https://harishdev-portfolio.netlify.app/'
         },
         {
             index: 3,
-            image: '/src/assets/Projects_Img/e-commerce.png',
+            image:ecommerceBg,
             name: "E-Commerce",
             technology: 'HTML, CSS, Javascript, React, Tailwind',
             discription: 'An interactive e-commerce front-end built with React.js, offering product listings, category filtering, and a functional shopping cart. The application focuses on responsive design and dynamic components to simulate a real-world online shopping experience.',
             link: 'https://harish-e-commerce.netlify.app/'
         },
         {
-            index: 4,
+            index: bskBg,
             image: '/src/assets/Projects_Img/bsk.png',
             name: 'BSK-Travels',
             technology: 'HTML, CSS, Javascript, React, Bootstrap',
@@ -45,7 +48,7 @@ const Projects = ({ colors }) => {
         },
         {
             index: 5,
-            image: '/src/assets/Projects_Img/todoapp.png',
+            image: todoBg,
             name: 'To-Do-App',
             technology: 'HTML, CSS, Javascript',
             discription: 'To-Do App – A simple and responsive task management tool that lets users add and delete tasks with ease. All tasks are saved in local storage, ensuring they remain available even after refreshing the page. Designed with a clean interface and smooth user interactions for an efficient and enjoyable experience.',
