@@ -5,13 +5,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import netflix from "../../assets/Projects_Img/netflix.png";
+import projectBg from "../../assets/project_bg.jpg";
 
 const Projects = ({ colors }) => {
-
-    const bg = {
-        backgroundImage: '/src/assets/project_bg.jpg'
-
-    }
 
     const imgSlide = [
         {
@@ -68,7 +64,7 @@ const Projects = ({ colors }) => {
     return (
         <div
             id='projects'
-            style={{ backgroundImage: `url("${bg.backgroundImage}")` }}
+            style={{ backgroundImage: `url("${projectBg}")` }}
             className='bg-cover bg-center bg-no-repeat'
         >
             <div className='px-10 py-25 w-full flex flex-col items-center justify-center gap-10 bg-white/5 backdrop-blur-xs backdrop-brightness-30 backdrop-invert-5'>

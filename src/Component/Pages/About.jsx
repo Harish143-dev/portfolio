@@ -1,16 +1,14 @@
 import React from 'react'
 import MouseNav from '../MouseNav'
 import AboutMe from '../../assets/about_me.png'
+import aboutBg from '../../assets/about_bg.png'
 
 const About = ({ colors }) => {
 
-    const bg = {
-        backgroundImage: "/src/assets/about_bg.png",
-    }
     const tags = ["<p>", "</p>"]
 
     return (
-        <div name='about' style={{ backgroundImage: `url("${bg.backgroundImage}")` }} className='py-25 bg-contain px-10 flex flex-col gap-10 justify-center items-center' >
+        <div name='about' style={{ backgroundImage: `url("${aboutBg}")` }} className='py-25 bg-contain px-10 flex flex-col gap-10 justify-center items-center' >
             <div className='scroll_animation'>
                 <MouseNav />
             </div>

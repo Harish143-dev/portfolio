@@ -5,18 +5,14 @@ import { faDesktop } from '@fortawesome/free-solid-svg-icons'
 import { faBootstrap, faCss3Alt, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
 import tailwind from '../../assets/tailwind.png'
 import Heading from '../Heading'
+import skillBg from '../../assets/skill_bg.png'
 
 const Skills = ({ colors }) => {
-
-    const bg = {
-        backgroundImage: "/src/assets/skill_bg.jpg",
-    }
-
 
     return (
         <div
             id='skills'
-            style={{ backgroundImage: `url("${bg.backgroundImage}")` }}
+            style={{ backgroundImage: `url("${skillBg}")` }}
             className='bg-contain'
         >
             <div className='flex flex-col items-center px-10 justify-center gap-10 bg-white/0 backdrop-blur-sm backdrop-opacity-200 backdrop-invert-5 w-full py-25'>
