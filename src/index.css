@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+.activeClass {
+    background-color: white;
+    color: black;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* width of scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+    /* track background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #12F7D6;
+    /* thumb (scroll) color */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #98FAEC;
+    /* thumb color on hover */
+}
+
+.scroll_animation {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: .5;
+        clip-path: inset(100%, 100% 0 0);
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+        clip-path: inset(0, 0 0 0);
+    }
+}
+
+.right_scroll_animation {
+    animation: right_appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+
+@keyframes right_appear {
+    from {
+        opacity: 0;
+        scale: .5;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0px);
+    }
+}
+
+.left_scroll_animation {
+    animation: left_appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+@keyframes left_appear {
+    from {
+        opacity: 0;
+        scale: .5;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0px);
+    }
+}
+
+.right_entry_animation {
+    animation: rightEntry 1s linear;
+}
+
+@keyframes rightEntry {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.left_entry_animation {
+    animation: leftEntry 1s linear;
+}
+
+@keyframes leftEntry {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.center_entry_animation {
+    animation: centerEntry 1s linear;
+}
+
+@keyframes centerEntry {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.top_entry_animation {
+    animation: topEntry 1s linear;
+}
+
+@keyframes topEntry {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
