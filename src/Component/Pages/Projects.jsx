@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import projectBg from "../../assets/project_bg.jpg";
 import netflixBg from '../../assets/Projects_Img/netflix.png'
+import portfolioBg from '../../assets/Projects_Img/portfolio.png'
 import ecommerceBg from '../../assets/Projects_Img/e-commerce.png'
 import bskBg from '../../assets/Projects_Img/bsk.png'
 import todoBg from '../../assets/Projects_Img/todoapp.png'
