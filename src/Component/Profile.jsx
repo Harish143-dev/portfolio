@@ -48,7 +48,7 @@ const Profile = ({ colors }) => {
                 </p>
             </div>
             <div className='flex justify-center'>
-                <button className='bg-white text-black rounded-full px-5 py-1 text-sm font-semibold cursor-pointer hover:shadow-md transition-all shadow-cyan-400'>Download CV</button>
+                <a href='https://drive.google.com/file/d/1HH3pylAWRB5FBf4c1TqbVjpbzR2_JV1t/view?usp=sharing' target='blank' className='bg-white text-black rounded-full px-5 py-1 text-sm font-semibold cursor-pointer hover:shadow-md transition-all shadow-cyan-400'>Download CV</a>
             </div>
         </div>
     )
