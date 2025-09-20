@@ -10,6 +10,7 @@ import portfolioBg from '../../assets/Projects_Img/portfolio.png'
 import ecommerceBg from '../../assets/Projects_Img/e-commerce.png'
 import bskBg from '../../assets/Projects_Img/bsk.png'
 import todoBg from '../../assets/Projects_Img/todoapp.png'
+import crudBg from '../../assets/Projects_Img/crud.png'
 
 const Projects = ({ colors }) => {
 
@@ -18,7 +19,7 @@ const Projects = ({ colors }) => {
             index: 1,
             image: netflixBg,
             name: 'Netflix',
-            technology: 'HTML, CSS, Javascript, React, Tailwind, Firebase',
+            technology: 'React, Tailwind, Firebase',
             discription: 'I developed a Netflix-like streaming website with a clean and engaging user interface It features movie categories, banner sections, and detailed content display. I used dynamic data fetching and passed props to render different movie rows This project helped me understand how real-world streaming platforms organize content.',
             link: 'https://my-net-flics-clone.netlify.app/'
         },
@@ -27,15 +28,15 @@ const Projects = ({ colors }) => {
             index: 2,
             image: portfolioBg,
             name: 'Portfolio',
-            technology: 'HTML, CSS, Javascript, React, Tailwind',
+            technology: 'React, Tailwind',
             discription: 'This portfolio showcases my work as a frontend developer, focusing on clean, responsive, and user-friendly web interfaces. It reflects my ability to turn designs into interactive digital experiences. The site serves as a central place to present my skills, creativity, and completed projects.',
             link: 'https://harishdev-portfolio.netlify.app/'
         },
         {
             index: 3,
-            image:ecommerceBg,
+            image: ecommerceBg,
             name: "E-Commerce",
-            technology: 'HTML, CSS, Javascript, React, Tailwind',
+            technology: 'React, Tailwind',
             discription: 'An interactive e-commerce front-end built with React.js, offering product listings, category filtering, and a functional shopping cart. The application focuses on responsive design and dynamic components to simulate a real-world online shopping experience.',
             link: 'https://harish-e-commerce.netlify.app/'
         },
@@ -43,7 +44,7 @@ const Projects = ({ colors }) => {
             index: 4,
             image: bskBg,
             name: 'BSK-Travels',
-            technology: 'HTML, CSS, Javascript, React, Bootstrap',
+            technology: 'React, Bootstrap',
             discription: 'A responsive online platform where users explore tour packages, book seats, browse trip photos, and contact the team—designed for seamless, hassle-free travel planning.',
             link: 'https://bsk-travels.netlify.app/'
         },
@@ -54,7 +55,15 @@ const Projects = ({ colors }) => {
             technology: 'HTML, CSS, Javascript',
             discription: 'To-Do App – A simple and responsive task management tool that lets users add and delete tasks with ease. All tasks are saved in local storage, ensuring they remain available even after refreshing the page. Designed with a clean interface and smooth user interactions for an efficient and enjoyable experience.',
             link: 'https://harish-to-do-app.netlify.app/'
-        }
+        },
+        {
+            index: 5,
+            image: crudBg,
+            name: 'Crud',
+            technology: 'Rect JS, Node JS, Express, Mongo DB, Tailwind',
+            discription: 'CRUD App – A full-stack web application that allows users to create, read, update, and delete records seamlessly. Built with the MERN stack (MongoDB, Express, React, Node.js), it provides a responsive and user-friendly interface. Data is stored in MongoDB, ensuring persistence and reliability, while smooth interactions and a clean layout make managing records simple and efficient.',
+            link: 'https://crud-frontend-mr0d.onrender.com'
+        },
     ]
 
     var settings = {

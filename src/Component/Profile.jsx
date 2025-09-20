@@ -2,7 +2,7 @@ import React from 'react'
 import me from '../assets/me.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import { faLocationDot, faMapLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 const Profile = ({ colors }) => {
     return (
